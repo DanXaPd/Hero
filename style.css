@@ -1,0 +1,62 @@
+body{
+    background-color: darkgrey;
+}
+h1{
+    color: crimson;
+    font-size: 50px;
+}
+.all{
+    width: 1300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+img{
+    /*display: block;*/
+    width: 100px;
+    object-fit: contain;
+}
+.all div{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+}
+.all div .txt{
+    width: 100px;
+}
+.all div .img{
+    width: 100px;
+}
+h3{
+    text-align: center;
+}
+@media screen and (max-width:1440px){
+    .all{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1000px){
+    .all{
+        width: 700px;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:700px){
+    .all{
+        width: 450px;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+}
+@media screen and (max-width:450px){
+    .all{
+        width: 300px;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+}
